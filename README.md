@@ -76,7 +76,9 @@ pip install -r requirements.txt
 ```
 
 ### 2️⃣ Create a .env file
-Inside src/, create:
+1. Navigate to 'src/' folder
+2. Create a '.env' file
+3. Add the following variable:
 ```
 API_KEY=your_openweathermap_api_key_here
 ```
