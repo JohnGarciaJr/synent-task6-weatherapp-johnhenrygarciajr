@@ -76,7 +76,9 @@ pip install -r requirements.txt
 ```
 
 ### 2️⃣ Create a .env file
-Inside src/, create:
+1. Navigate to 'src/' folder
+2. Create a '.env' file
+3. Add the following variable:
 ```
 API_KEY=your_openweathermap_api_key_here
 ```
@@ -126,6 +128,13 @@ This project fulfills all requirements for Task 6: Weather App, demonstrating:
 
 - CLI interaction
 
+## 📬 Contact / Updates
+This repository will be updated daily as tasks are completed.
+Each task folder includes its own documentation and execution notes.
+
+**Developer:** John Henry Garcia Jr  
+**Location:** Pearland, Texas  
+**Reach me here: jhgarci4@asu.edu
 - Error handling
 
 - Clean Python architecture
