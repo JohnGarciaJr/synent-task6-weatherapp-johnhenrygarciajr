@@ -61,6 +61,8 @@ synent-task6-weatherapp-johnhenrygarciajr/
       └── src/
         └── weather.py
       │── README.md
+      │── SECURITY.md
+      └──  requirments.txt
 ```
 
 
