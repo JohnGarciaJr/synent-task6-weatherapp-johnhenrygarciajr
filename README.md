@@ -57,11 +57,10 @@ Gracefully handles:
 ## 📂 Project Structure
 
 ```
-task-6/
-│── README.md
-│── requirements.txt
-└── src/
-└── weather.py
+synent-task6-weatherapp-johnhenrygarciajr/
+      └── src/
+        └── weather.py
+      │── README.md
 ```
 
 
