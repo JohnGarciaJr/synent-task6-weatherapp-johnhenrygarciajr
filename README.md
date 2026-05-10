@@ -126,6 +126,13 @@ This project fulfills all requirements for Task 6: Weather App, demonstrating:
 
 - CLI interaction
 
+## 📬 Contact / Updates
+This repository will be updated daily as tasks are completed.
+Each task folder includes its own documentation and execution notes.
+
+**Developer:** John Henry Garcia Jr  
+**Location:** Pearland, Texas  
+**Reach me here: jhgarci4@asu.edu
 - Error handling
 
 - Clean Python architecture
