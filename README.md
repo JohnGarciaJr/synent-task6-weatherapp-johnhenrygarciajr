@@ -1,100 +1,132 @@
-# Synent Technologies — Python Development Internship
+# 🌦️ Task 6 — Weather App (API Integration)
+### Synent Technologies Python Development Internship  
+### Developer: John Henry Garcia Jr
 
-## 📌 Overview
-This repository contains all tasks, projects, and documentation completed during the Synent Technologies Python Development Internship, part of the AICTE/MSME Fellowship Program.
-Each task is organized into its own modular folder with clean Python code, structured READMEs, and supporting artifacts.
+This project is my submission for **Task 6: Weather App (API Integration)**.  
+The objective of this task is to build a simple, modular Python application that fetches **real‑time weather data** using a public API and displays it in a clean, readable format.
 
----
-
-## 📁 Repository Structure
-```
-synent-internship/
-│
-├── synent-task6-weatherapp-johnhenrygarciajr/
-│   ├── src/
-│   │   └── weather.py
-│   └── README.md
-│
-├── synent-task8-webscraper-johnhenrygarciajr/
-│   ├── src/
-│   │   └── scraper.py
-│   └── README.md
-│
-├── synent-task9-taskmanager-johnhenrygarciajr/
-│   ├── static/
-│   │   └── style.css
-│   ├── templates/
-│   │   ├── 403.html
-│   │   ├── 404.html
-│   │   ├── 500.html
-│   │   ├── add_task.html
-│   │   ├── base.html
-│   │   ├── dashboard.html
-│   │   ├── edit_task.html
-│   │   ├── login.html
-│   │   └── register.html
-│   ├── app.py
-│   ├── database.db
-│   ├── models.py
-│   ├── schema.sql
-│   └── README.md
-│
-├── .gitignore
-├── LICENSE
-└── README.md   ← (this file)
-```
-## 🔗 Quick Navigation
-
-- [Task 6 — Weather App](./synent-task6-weatherapp-johnhenrygarciajr/README.md)
-- [Task 8 — Web Scraper](./synent-task8-webscraper-johnhenrygarciajr/README.md)
-- [Task 9 — Task Manager Web App](./synent-task9-taskmanager-johnhenrygarciajr/README.md)
+This project demonstrates:
+- API requests using `requests`
+- JSON parsing
+- Error handling
+- Environment variable usage
+- Modular Python scripting
 
 ---
 
-## 🧩 What Each Task Folder Includes
-- README.md — documentation, requirements, approach, and output
-- src/ — Python scripts and modules
-- static/ & templates/ (for web‑based tasks)
+## 🚀 Features
 
----
+### 🌍 Real‑Time Weather Lookup
+- Enter any city name  
+- Fetches:
+  - Temperature  
+  - Feels‑like temperature  
+  - Weather condition  
+  - Humidity  
+  - Wind speed  
 
-## 🧠 Skills & Focus Areas
+### 🛡️ Error Handling
+Gracefully handles:
+- Invalid city names  
+- Missing API key  
+- Network issues  
+- API downtime  
 
-- Python scripting & automation  
-- Data structures & algorithms  
-- File handling & data processing  
-- Web scraping  
-- API interaction  
-- Basic → Intermediate → Advanced project development  
-- Clean code, modular design, and documentation best practices  
+### 🔐 Secure API Key Management
+- Uses `.env` file  
+- Keeps API key out of source code  
+
+### 🧩 Clean Code Structure
+- Modular functions  
+- Easy to extend  
+- Beginner‑friendly and readable  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python 3.x
-- VS Code
-- Git & GitHub
-- Requests, BeautifulSoup, Pandas (as needed)
-- Flask (for Task 9)
-- Virtual environments for isolated development  
+| Component | Technology |
+|----------|------------|
+| Language | Python 3.x |
+| API | OpenWeatherMap |
+| Libraries | `requests`, `python-dotenv` |
+| Output | Terminal / CLI |
 
 ---
 
-## 📄 Internship Deliverables
+## 📂 Project Structure
 
-- Completed Python tasks (Basic, Intermediate, Advanced)  
-- Documented project READMEs  
-- Video evidence of execution  
-- Final submission package for Synent Technologies  
+```
+task-6/
+│── README.md
+│── requirements.txt
+└── src/
+└── weather.py
+```
+
+
+---
+
+## 🔧 Setup Instructions
+
+### 1️⃣ Install dependencies
+Run this inside the project folder:
+
+```bash
+pip install -r requirements.txt
+```
+
+### 2️⃣ Create a .env file
+Inside src/, create:
+```
+API_KEY=your_openweathermap_api_key_here
+```
+
+### 3️⃣ Run the application
+```
+python src/weather.py
+```
+
+You will be prompted to enter a city name.
 
 ---
 
-## 📬 Contact / Updates
+## 📊 Example Output
+```
+=== Weather App ===
+Enter a city name: Houston
 
-This repository will be updated daily as tasks are completed.  
-Each task folder includes its own documentation and execution notes.
-
-Reach me here: jhgarci4@asu.edu
+Weather for Houston, US
+-----------------------
+Temperature: 82°F
+Feels Like: 85°F
+Condition: Clear sky
+Humidity: 60%
+Wind Speed: 4.5 mph
+```
 
 ---
+
+### 🧪 Error Handling Examples
+❌ Invalid city → “city not found”
+
+❌ Missing API key → “API key not found”
+
+❌ Network issue → “Network error”
+
+❌ API down → Friendly fallback message
+
+---
+
+### 🏁 Conclusion
+This project fulfills all requirements for Task 6: Weather App, demonstrating:
+
+- API integration
+
+- JSON parsing
+
+- CLI interaction
+
+- Error handling
+
+- Clean Python architecture
