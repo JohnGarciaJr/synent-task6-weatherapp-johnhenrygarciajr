@@ -5,6 +5,9 @@
 This project is my submission for **Task 6: Weather App (API Integration)**.  
 The objective of this task is to build a simple, modular Python application that fetches **real‑time weather data** using a public API and displays it in a clean, readable format.
 
+Link to Video Submission:
+[Task 6 — Weather App Video](https://www.linkedin.com/posts/johngarciajr83_internship-python-programming-ugcPost-7461167197239996416-egEr?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADaOpwwB33Y0_oTjzePpZVr26EEozGnel7I)
+
 This project demonstrates:
 - API requests using `requests`
 - JSON parsing
